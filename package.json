@@ -1,0 +1,31 @@
+{
+  "name": "terminal-mandelbrot",
+  "version": "1.0.0",
+  "description": "Interactive Mandelbrot fractal explorer in the terminal using TypeScript and tsx",
+  "type": "module",
+  "bin": {
+    "terminal-mandelbrot": "./index.ts"
+  },
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "engineStrict": true,
+  "keywords": [
+    "mandelbrot",
+    "fractal",
+    "ascii",
+    "terminal",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "tsx": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2"
+  }
+}
