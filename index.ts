@@ -72,7 +72,7 @@ function render() {
     }
     console.log(line);
   }
-  console.log(`Zoom: ${zoom.toFixed(2)}, Center: (${centerX.toFixed(4)}, ${centerY.toFixed(4)})`);
+  console.log(`Zoom: ${zoom.toFixed(2)}, Center: (${centerX.toFixed(4)}, ${centerY.toFixed(4)}), Use arrow keys to pan, Z/X to zoom, Ctrl+C to exit.`);
 }
 
 readline.emitKeypressEvents(process.stdin);
