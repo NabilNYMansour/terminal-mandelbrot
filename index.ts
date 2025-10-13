@@ -59,6 +59,7 @@ function mandelbrot(x: number, y: number): number {
 
 function render() {
   const width = process.stdout.columns || 80;
+  // Leave some space for the prompt and input
   const height = process.stdout.rows - 2 || 24;
   const aspect = (width / height) * charAspect;
 
@@ -78,7 +79,7 @@ function render() {
     }
     console.log(line);
   }
-  console.log(`Zoom: ${zoom.toFixed(2)}, Center: (${centerX.toFixed(4)}, ${centerY.toFixed(4)}), Use arrow keys to pan, Z/X to zoom, Ctrl+C to exit.`);
+  console.log(`Zoom: ${zoom.toFixed(2)}, Center: (${centerX.toFixed(4)}, ${centerY.toFixed(4)}), arrow keys: pan, Z/X: zoom, Ctrl+C: exit.`);
 }
 
 readline.emitKeypressEvents(process.stdin);
