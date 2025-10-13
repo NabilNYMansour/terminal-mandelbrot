@@ -1,5 +1,11 @@
 #!/usr/bin/env tsx
 
+const [major] = process.versions.node.split('.').map(Number);
+if (major < 20) {
+  console.error(`terminal-mandelbrot requires Node.js 20 or newer (current: ${process.version})`);
+  process.exit(1);
+}
+
 import * as readline from "readline";
 
 const gradient = " _.-,=+:;cba!?0123456789$W#@";
