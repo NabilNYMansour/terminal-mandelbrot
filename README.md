@@ -25,11 +25,12 @@ terminal-mandelbrot
 ```
 
 ## Controls
-Key	Action
-← / → / ↑ / ↓	Pan
-Z	Zoom in
-X	Zoom out
-Ctrl+C	Exit
+| Key           | Action   |
+| ------------- | -------- |
+| ← / → / ↑ / ↓ | Pan      |
+| Z             | Zoom in  |
+| X             | Zoom out |
+| Ctrl+C        | Exit     |
 
 ## Requirements
 
