@@ -1,6 +1,6 @@
 {
   "name": "terminal-mandelbrot",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Interactive Mandelbrot fractal explorer in the terminal using TypeScript and tsx",
   "type": "module",
   "bin": {
