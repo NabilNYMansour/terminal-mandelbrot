@@ -1,6 +1,5 @@
 # Terminal Mandelbrot
-<img width="1920" height="1080" alt="thumbnail" src="https://github.com/user-attachments/assets/b650329a-3808-457e-afad-9e04cb68bf0d" />
-
+![Mandelbrot set on the terminal](https://github.com/user-attachments/assets/b650329a-3808-457e-afad-9e04cb68bf0d)
 
 Interactive Mandelbrot fractal explorer for your terminal — written in TypeScript and powered by tsx.
 Pan, zoom, and explore the Mandelbrot set directly from your command line.
