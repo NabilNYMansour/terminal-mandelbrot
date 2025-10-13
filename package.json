@@ -1,6 +1,6 @@
 {
   "name": "terminal-mandelbrot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interactive Mandelbrot fractal explorer in the terminal using TypeScript and tsx",
   "type": "module",
   "bin": {
@@ -13,6 +13,14 @@
     "node": ">=20"
   },
   "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NabilNYMansour/terminal-mandelbrot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NabilNYMansour/terminal-mandelbrot/issues"
+  },
+  "homepage": "https://github.com/NabilNYMansour/terminal-mandelbrot#readme",
   "keywords": [
     "mandelbrot",
     "fractal",
@@ -20,7 +28,7 @@
     "terminal",
     "typescript"
   ],
-  "author": "Your Name",
+  "author": "Nabil Mansour",
   "license": "MIT",
   "dependencies": {
     "tsx": "^3.12.0"
