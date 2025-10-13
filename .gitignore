@@ -1,0 +1,48 @@
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+.cache/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.*.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS generated files
+ehthumbs.db
+Icon?
+
+# Misc
+*.tgz
+*.gz
+
+# NOTE: lockfiles (pnpm-lock.yaml) are intentionally committed for reproducible installs
