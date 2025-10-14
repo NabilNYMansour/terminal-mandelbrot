@@ -107,7 +107,7 @@ function render() {
   }
 
   process.stdout.write(`\x1b[H${frame}`);
-  console.log(`Zoom: ${zoom.toFixed(2)}, Center: (${centerX.toFixed(4)}, ${centerY.toFixed(4)}), arrow keys: pan, Z/X: zoom, Ctrl+C: exit.`);
+  console.log(`Zoom: ${zoom.toFixed(2)}, Center: (${centerX.toFixed(4)}, ${centerY.toFixed(4)}), arrow keys: pan, Z/X: zoom, Ctrl+C: exit. Use --gray for grayscale.`);
 }
 
 readline.emitKeypressEvents(process.stdin);
