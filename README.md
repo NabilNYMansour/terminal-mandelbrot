@@ -54,7 +54,5 @@ Smooth pan and zoom controls
 
 Auto-resize with terminal window
 
-Clean, dependency-light TypeScript implementation
-
 ## License
 MIT © Nabil Mansour
