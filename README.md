@@ -1,5 +1,5 @@
 # Terminal Mandelbrot
-![Mandelbrot](https://github.com/NabilNYMansour/terminal-mandelbrot/thumbnail.png)
+![Mandelbrot](https://github.com/NabilNYMansour/terminal-mandelbrot/blob/main/thumbnail.png)
 
 Interactive Mandelbrot fractal explorer for your terminal — written in TypeScript and powered by tsx.
 Pan, zoom, and explore the Mandelbrot set directly from your command line.
