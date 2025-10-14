@@ -53,6 +53,11 @@ npm install -g terminal-mandelbrot
 terminal-mandelbrot
 ```
 
+You can also run in grayscale mode by adding a `--gray` flag.
+```bash
+npx terminal-mandelbrot --gray
+```
+
 ## Controls
 | Key           | Action   |
 | ------------- | -------- |
